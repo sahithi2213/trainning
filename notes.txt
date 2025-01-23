@@ -231,4 +231,30 @@ syntax :-   let p = new Promise((resolve , reject)=>{});
                 3.finally() :- finally will execute for both success & failures once the promise settles.
 
 
-4.Async & await
+4.Async & await :-
+ayns:- this keyword makes synchronus function as asynchrous function and stsrt execution
+
+awit:- this keyword will make the function to wait untill promise completes
+
+DOM :-(Document object model)
+*********************************
+WHAT IS DOM?
+- DOM is a web api used to manipulate the HTML content.
+- DOM is used to add  , remove , upadte the content inside the HTML
+
+methods of DOM :-
+********************
+1.document.getElementByID(""); :-this method is used to target the html element based on"id" attribute value.
+                                -with id attribute we can select only one element(unique element).
+
+2.document.getElementByClassNme(""); :-this method is used to target the html element based on"class" attribute value.
+                                      -with id attribute we can select multiple element by a same class name.
+3.doucment.getElementByTagName(""); :- this method is used to target the html element based on"TANAME".
+4.document.getElementByName(""); :- this method is used to target the element based on "name" attribute.
+5.doucment.querySelector(""); :-this element selects only one element.
+6.document.querySelectorALL(""); :-this method selects multiple element.
+
+inner Text :- this is 
+
+
+
