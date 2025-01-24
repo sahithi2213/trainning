@@ -255,6 +255,16 @@ methods of DOM :-
 6.document.querySelectorALL(""); :-this method selects multiple element.
 
 inner Text :- this is 
+inner html :-
 
+sperad operator:-it is used to take out each and every value from the original array
+synatx:-[...variable]
+
+Events in javascript:-
+**********************
+- events sre nothing but an action to perform on html getElementByClassName
+- in this events wwe have click events, mouse events, key events
+clickevents :- onclick,onmouse , onmouseleave
+mouse events :- keypress,keydown,
 
 
