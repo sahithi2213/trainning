@@ -31,24 +31,15 @@
 //     console.log(element.innerText);
 // })
 
-
-// let btn = document.getElementById("btn");
-// btn.addEventListener("mouseover" , ()=>{
-//     // alert("mouse over done")
-//     document.body.style.background="teal"
-// })
-
-// btn.addEventListener("mouseleave" , ()=>{
-//     // alert("mouse leave done")
-//     document.body.style.background="tomato"
-// })
-
-
-// let inp = document.querySelector("#inp");
-// inp.addEventListener("keydown",()=>{
-//     console.log("key down");
-// })
-
-// inp.addEventListener("keyup",()=>{
-//     console.log("key up");
-// })
+let bgColour = document.querySelectorAll(".bgColour");
+//console.log(bgcolour);
+[...bgColour].map((element)=>{
+    //console.log(element);
+    element.addEventListener("mouseover",()=>{
+        element.style.backgroundColour=element.innerText;
+    });
+    element.addEventListener("mouseleave",()=>{
+        element.Style.backgroundColour="transparent";
+    })
+    
+})
